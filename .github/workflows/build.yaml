@@ -45,5 +45,5 @@ jobs:
     uses: ./.github/workflows/_meta_portable.yaml
     with:
       os: 'linux'
-      architectures: '["amd64", "arm64"]'
+      architectures: '["amd64", "arm64", "armhf"]'
       release: false
